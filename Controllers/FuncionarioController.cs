@@ -93,6 +93,6 @@ public class FuncionarioController : ControllerBase
 
         // TODO: Chamar o método UpsertEntity para salvar no Azure Table
 
-        return NoContent();
+        return NoContent ();
     }
 }
